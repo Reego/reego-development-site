@@ -60,6 +60,54 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+
+    .mainImageText a {
+        font-size:4vw;
+    }
+
+    .mainImageText .mainImageTitle {
+        font-size:10vw;
+    }
+
+    .mainImageText .mainImageSubText {
+        font-size:4vw;
+        width:90vw;
+    }
+
+    .mainImage .mainImageText {
+        width:90vw;
+    }
+
+    .contact .contactItems {
+        width:90vw;
+        font-size:14px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .skills .skill {
+        width:70vw;
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+    }
+
+    .skills .skill ul {
+        width:60vw;
+        padding-left:10vw;
+    }
+
+    .skills .skill li {
+        font-size:3.5vw;
+    }
+
+    .skill .skillTitle {
+        font-size:4.2vw;
+    }
+
+}
+
 body {
     margin:0;
     /*background-image:url("../images/img2.jpg");
@@ -247,6 +295,8 @@ body {
 
             .contactItems p {
                 margin-top:30px;
+                color:inherit;
+                text-decoration:none;
             }
 
         .footer {
