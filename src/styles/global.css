@@ -109,7 +109,7 @@
     }
 
     body .content {
-        padding-bottom:70px;
+        padding-bottom:80px;
     }
 
 }
@@ -122,6 +122,15 @@ body {
     height:auto;
 }
 
+/*.bgOverlay {
+    position:fixed;
+    height:105vh;
+    width:100vw;
+    background-image:url("../images/img2.jpg");
+    background-size:100%;
+    z-index:0;
+}*/
+
 .bgImage {
     position:fixed;
     height:100vh;
@@ -129,6 +138,7 @@ body {
     background-image:url("../images/img2.jpg");
     background-size:100%;
     z-index:1;
+    overflow:hidden;
 }
 
 * {
