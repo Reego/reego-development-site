@@ -1,21 +1,50 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import Layout from '../components/layout'
+import '../styles/global.css'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+export default () => (
+  <React.Fragment>
+    <div className='overlay'></div>
+    <Layout/>
+    <div className='content'>
+        <div className='skills' id='skills'>
+          <p className='skillsDescription'>Here are some of the skills I provide</p>
+          <div className='skill'>
+            <p className='skillTitle'>Front End</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+          <div className='skill'>
+            <p className='skillTitle'>Back End</p>
+            <ul>
+              <li>Python</li>
+              <li>Node.js</li>
+              <li>Gatsby.js</li>
+            </ul>
+          </div>
+          <div className='skill'>
+            <p className='skillTitle'>Tools</p>
+            <ul>
+              <li>Git</li>
+              <li>Electron.js</li>
+            </ul>
+          </div>
+        </div>
+        <div className='contact' id='contact'>
+          <p className='contactTitle'>Contact Me</p>
+          <div className='contactItems'>
+            <p>Email: reegodev@gmail.com</p>
+            <p>Phone: (832) 366 1434</p>
+          </div>
+        </div>
+        <div className='footer'>
+          <p>Copyright 2019 - 2020</p>
+          <p>All Rights Reserved.</p>
+        </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  </React.Fragment>
 )
-
-export default IndexPage
