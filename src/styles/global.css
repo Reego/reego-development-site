@@ -1,14 +1,80 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Bevan&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Baumans&display=swap");
+
+@media only screen and (max-width: 1050px) {
+
+    .skills .skill {
+        width:30vw;
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .skill .skillTitle {
+        font-size:3.2vw;
+    }
+
+    .skill li {
+        font-size:2.7vw;
+    }
+
+    .skills .skill ul {
+        width:30vw;
+        margin-left:0;
+        left:0;
+        text-indent:0;
+        padding-left:4vw;
+    }
+
+    .content .skillsDescription {
+        width:90vw;
+        font-size:5vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .mainImageText a {
+        font-size:4vw;
+    }
+
+    .mainImageText .mainImageTitle {
+        font-size:10vw;
+    }
+
+    .mainImageText .mainImageSubText {
+        font-size:4vw;
+        width:90vw;
+    }
+
+    .mainImage .mainImageText {
+        width:90vw;
+    }
+
+    .contact .contactItems {
+        width:90vw;
+        font-size:14px;
+    }
+}
 
 body {
     margin:0;
-    background-image:url("../images/img2.jpg");
-    background-size:100%;
+    /*background-image:url("../images/img2.jpg");
+    background-size:100%;*/
     scroll-behavior:smooth;
     height:auto;
+}
+
+.bgImage {
+    position:fixed;
+    height:100vh;
+    width:100vw;
+    background-image:url("../images/img2.jpg");
+    background-size:100%;
+    z-index:1;
 }
 
 * {
@@ -91,7 +157,9 @@ body {
             }
 
     .content {
+        position:relative;
         border-top:10px solid #222;
+        z-index:3;
     }
 
         .skillsDescription {

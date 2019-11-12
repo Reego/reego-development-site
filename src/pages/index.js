@@ -4,6 +4,7 @@ import '../styles/global.css'
 
 export default () => (
   <React.Fragment>
+    <div className='bgImage'></div>
     <div className='overlay'></div>
     <Layout/>
     <div className='content'>
