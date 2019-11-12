@@ -91,6 +91,8 @@
         width:70vw;
         margin-left:1.5vw;
         margin-right:1.5vw;
+        margin-top:20px;
+
     }
 
     .skills .skill ul {
@@ -104,6 +106,10 @@
 
     .skill .skillTitle {
         font-size:4.2vw;
+    }
+
+    body .content {
+        padding-bottom:70px;
     }
 
 }
