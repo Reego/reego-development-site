@@ -2,6 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Baumans&display=swap");
 
+@media only screen and (min-height: 900px) {
+
+    .mainImage .mainImageText {
+        margin-top:300px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+
+    .mainImage .mainImageText {
+        margin-top:200px;
+    }
+}
+
 @media only screen and (max-height: 500px) {
 
     .mainImage .mainImageText {
@@ -95,7 +109,7 @@
     }
 
     body .content {
-        padding-bottom:80px;
+        /*padding-bottom:80px;*/
     }
 
 }
@@ -214,6 +228,8 @@ body {
     .content {
         position:relative;
         border-top:10px solid #222;
+        margin:0;
+        padding-bottom:0;
         z-index:3;
     }
 
