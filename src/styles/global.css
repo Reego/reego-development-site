@@ -114,10 +114,18 @@
 
 }
 
-body {
-    position:absolute;
-    width:100vw;
+html {
+    width:100%;
+    min-height:100%;
     margin:0;
+    padding:0;
+}
+
+body {
+    width:inherit;
+    min-height:inherit;
+    margin:0;
+    padding:0;
     background-color:rgba(0,0,0,1);
     /*background-image:url("../images/img2.jpg");
     background-size:100%;*/
