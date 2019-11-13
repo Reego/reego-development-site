@@ -2,6 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Baumans&display=swap");
 
+@media only screen and (max-height: 500px) {
+
+    .mainImage .mainImageText {
+        margin-top:100px;
+    }
+}
+
 @media only screen and (max-width: 1050px) {
 
     .skills .skill {
@@ -58,30 +65,9 @@
         width:90vw;
         font-size:14px;
     }
-}
 
-@media only screen and (max-width: 500px) {
-
-    .mainImageText a {
-        font-size:4vw;
-    }
-
-    .mainImageText .mainImageTitle {
-        font-size:10vw;
-    }
-
-    .mainImageText .mainImageSubText {
-        font-size:4vw;
-        width:90vw;
-    }
-
-    .mainImage .mainImageText {
-        width:90vw;
-    }
-
-    .contact .contactItems {
-        width:90vw;
-        font-size:14px;
+    body .bgImage {
+        background-size:150%;
     }
 }
 
@@ -148,6 +134,7 @@ body {
 .overlay {
     position:absolute;
     height:100vh;
+    min-height:450px;
     width:100vw;
     background-color:rgba(10,15,30,.8);
     box-shadow:0 0 25px 5px rgba(0,0,0,.8) inset;
@@ -157,6 +144,7 @@ body {
     .layout {
         position:relative;
         height:100vh;
+        min-height:450px;
         width:100vw;
         z-index:3;
     }
@@ -164,6 +152,7 @@ body {
     .mainImage {
         position:absolute;
         height:100vh;
+        min-height:450px;
         width:100vw;
         font-size:20px;
     }
