@@ -101,6 +101,7 @@
 }
 
 body {
+    position:fixed;
     margin:0;
     /*background-image:url("../images/img2.jpg");
     background-size:100%;*/
