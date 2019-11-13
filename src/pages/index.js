@@ -1,10 +1,14 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { Helmet } from 'react-helmet'
 import '../styles/global.css'
 
 export default () => (
   <React.Fragment>
-    {/*<div className='bgOverlay'></div>*/}
+    <Helmet>
+      <title>Reego Development</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    </Helmet>
     <div className='bgImage'></div>
     <div className='overlay'></div>
     <Layout/>
