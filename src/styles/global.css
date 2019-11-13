@@ -245,6 +245,7 @@ body {
             background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(170,170,170,1) 100%);
             /*background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(190,190,190,1) 100%);*/
             text-align:center;
+            vertical-align:bottom;
         }
 
             .skill {
@@ -256,6 +257,7 @@ body {
                 background-color:rgba(255,255,255,.45);
                 box-shadow:0 5px 5px 5px rgba(0,0,0,.05);
                 overflow:hidden;
+                vertical-align:bottom;
 
                 color:#222;
             }
@@ -286,7 +288,6 @@ body {
             height:400px;
             border-top:10px solid #222;
             background-color:#111;
-            margin-top:-4px;
             overflow:hidden;
         }
 
