@@ -42,6 +42,10 @@
         font-size:2.7vw;
     }
 
+    .skill span {
+        font-size:2.7vw;
+    }
+
     .skills .skill ul {
         width:30vw;
         margin-left:0;
@@ -101,6 +105,10 @@
     }
 
     .skills .skill li {
+        font-size:3.5vw;
+    }
+
+    .skills .skill span {
         font-size:3.5vw;
     }
 
@@ -258,8 +266,8 @@ body {
             border-top:10px solid #222;
             /*background: rgb(219,219,219);
             background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(150,150,150,1) 100%);*/
-            background: rgb(229,229,229);
-            background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(170,170,170,1) 100%);
+            background: rgb(249,249,249);
+            background: linear-gradient(180deg, rgba(249,249,249,1) 0%, rgba(229,229,229,1) 70%, rgba(190,190,190,1) 100%);
             /*background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(190,190,190,1) 100%);*/
             text-align:center;
             vertical-align:bottom;
@@ -269,10 +277,10 @@ body {
                 display:inline-block;
                 margin-left:25px;
                 margin-right:25px;
-                height:200px;
+                height:300px;
                 width:300px;
-                background-color:rgba(255,255,255,.45);
-                box-shadow:0 5px 5px 5px rgba(0,0,0,.05);
+                /*background-color:rgba(255,255,255,.45);*/
+                /*box-shadow:0 5px 5px 5px rgba(0,0,0,.05);*/
                 overflow:hidden;
                 vertical-align:bottom;
 
@@ -283,6 +291,16 @@ body {
                     font-size:20px;
                     font-family:"Comfortaa";
                     font-weight:800;
+                }
+
+                .skill span {
+                    display:block;
+                    font-size:18px;
+                    width:80%;
+                    margin:0 auto;
+                    text-align:center;
+                    font-family:Sans-serif;
+                    font-weight:300;
                 }
 
                 .skill ul {
@@ -304,7 +322,7 @@ body {
         .contact {
             padding-top:50px;
             padding-bottom:100px;
-            /*border-top:10px solid #222;*/
+            border-top:10px solid #222;
             background-color:#111;
             /*overflow:hidden;*/
         }
@@ -342,7 +360,7 @@ body {
             position:relative;
             padding-bottom:30px;
             padding-top:10px;
-            /*border-top:20px solid rgba(255,255,255,.03);*/
+            border-top:20px solid rgba(255,255,255,.03);
             background-color:#000000;
             z-index:10;
             font-family:'Roboto';
@@ -354,3 +372,11 @@ body {
                 color:#666;
                 text-align:center;
             }
+
+svg {
+    display:block;
+    margin:0 auto;
+    width:100px;
+    height:100px;
+    fill:rgba(5,10,20,.9);
+}

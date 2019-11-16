@@ -14,7 +14,7 @@ export default () => (
             <div className='navigation'>
                 <a href='#contact'>contact</a>
                 <a href='#skills'>skills</a>
-                <a href='https://github.com/Reego' target='_blank'>github</a>
+                <a href='https://github.com/Reego'>github</a>
             </div>
             <div className='mainImageTitle'>Hello, I'm Reego</div>
             <div className='mainImageSubText'>A <i>Full-Stack</i> developer from Texas ready to make your website a <i>reality</i></div>
