@@ -170,12 +170,11 @@ body {
 }
 
 .overlay {
-    position:fixed;
+    position:absolute;
     height:100vh;
     min-height:450px;
     width:100vw;
     background-color:rgba(10,15,30,.8);
-    box-shadow:0 0 25px 5px rgba(0,0,0,.8) inset;
     z-index:2;
 }
 
@@ -193,6 +192,7 @@ body {
         min-height:450px;
         width:100vw;
         font-size:20px;
+        box-shadow:0 0 25px 5px rgba(0,0,0,.8) inset;
     }
 
         .mainImageText {
