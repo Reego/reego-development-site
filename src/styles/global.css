@@ -81,7 +81,11 @@
 
     .contact .contactItems {
         width:90vw;
-        font-size:14px;
+        font-size:16px;
+    }
+
+    .contact .contactTitle {
+        font-size:20px;
     }
 
     body .bgImage {
@@ -109,11 +113,11 @@
     }
 
     .skills .skill span {
-        font-size:3.5vw;
+        font-size:3.9vw;
     }
 
     .skill .skillTitle {
-        font-size:4.2vw;
+        font-size:4.6vw;
     }
 
     body .content {
@@ -320,7 +324,7 @@ body {
                     }
 
         .contact {
-            padding-top:50px;
+            padding-top:70px;
             padding-bottom:100px;
             border-top:10px solid #222;
             background-color:#111;
@@ -352,7 +356,7 @@ body {
                 margin:0;
                 line-height:35px;
                 /*margin-top:30px;*/
-                color:inherit;
+                color:#bbb;
                 text-decoration:none;
             }
 
@@ -369,7 +373,7 @@ body {
             .footer p {
                 margin-bottom:0;
                 margin-top:25px;
-                color:#666;
+                color:#777;
                 text-align:center;
             }
 
