@@ -170,7 +170,7 @@ body {
 }
 
 .overlay {
-    position:absolute;
+    position:fixed;
     height:100vh;
     min-height:450px;
     width:100vw;
