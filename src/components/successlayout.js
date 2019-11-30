@@ -14,7 +14,7 @@ export default () => (
         <div className='mainImageText'>
             <div className='mainImageTitle' style={{fontFamily:'Roboto'}}>Email Sent!</div>
             <div className='mainImageSubText'>Thank you for contacting me! Expect a reply shortly.</div>
-            <div className='returnToSite'><Link to='/' >Return to Site</Link></div>
+            <Link to='/' ><div className='returnToSite'>Return to Site</div></Link>
         </div>
     </div>
   </div>
