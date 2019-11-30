@@ -271,7 +271,7 @@ body {
             /*background: rgb(219,219,219);
             background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(150,150,150,1) 100%);*/
             background: rgb(249,249,249);
-            background: linear-gradient(180deg, rgba(249,249,249,1) 0%, rgba(229,229,229,1) 70%, rgba(190,190,190,1) 100%);
+            background: linear-gradient(180deg, rgba(249,249,249,1) 0%, rgba(229,229,229,1) 70%, rgba(210,210,210,1) 100%);
             /*background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(190,190,190,1) 100%);*/
             text-align:center;
             vertical-align:bottom;
@@ -376,6 +376,108 @@ body {
                 color:#777;
                 text-align:center;
             }
+
+.returnToSite {
+    padding:10px;
+    border:2px solid white;
+    width:150px;
+    margin:auto;
+    text-align:center;
+    border-radius:2px;
+    background-color:rgba(0,0,0,0);
+    transition:.2s ease;
+}
+
+.returnToSite > a {
+    color:#eee;
+    transition:.2s ease;
+    font-family:'Comfortaa';
+    font-size:16px;
+    text-decoration:none;
+}
+
+.returnToSite:hover {
+    background-color:rgba(255,255,255,1);
+    cursor:pointer;
+}
+
+.returnToSite:hover > a {
+    color:#111;
+}
+
+form {
+}
+
+form label {
+    display:block;
+    height:80px;
+    font-size:18px;
+    text-align:left;
+}
+
+input::placeholder, textarea::placeholder {
+    color:#999;
+}
+
+.inputEmail, .inputMessage, .inputSubmit {
+    display:block;
+    margin:10px auto;
+    background-color:rgba(0,0,0,0);
+    color:#eee;
+    border:none;
+    box-shadow:0;
+}
+
+.inputSubmit:focus,
+.inputSubmit:hover {
+    /*outline:2px solid #eee;*/
+    background-color:rgba(0,0,0,0);
+    border:none;
+}
+
+.inputMessage:focus {
+    outline:none;
+}
+
+.inputEmail:focus {
+    outline:none;
+}
+
+.inputEmail {
+    width:80%;
+    font-size:16px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+}
+
+.inputMessage {
+    width:100%;
+    margin-left:auto;margin-right:auto;
+    margin-top:50px;
+    min-height:50px;
+    font-size:16px;
+    border-bottom:1px solid #ddd;
+}
+
+.inputSubmit {
+    margin-top:50px;
+    padding:10px 20px;
+    font-size:16px;
+    font-family:'Comfortaa';
+    background-color:rgba(0,0,0,0);
+    outline:2px solid #eee;
+    color:#eee;
+    font-weight:bold;
+    transition:.2s ease;
+    margin-left:auto;margin-right:auto;
+}
+
+.inputSubmit:hover {
+    outline:2px solid rgba(0,0,0,0);
+    background-color:#eee;
+    color:#222;
+    cursor:pointer;
+}
 
 svg {
     display:block;

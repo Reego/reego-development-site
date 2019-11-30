@@ -50,8 +50,22 @@ export default () => (
         <div className='contact' id='contact'>
           <p className='contactTitle'>Contact Me</p>
           <div className='contactItems'>
-            <p>Email: reegodev@gmail.com</p>
-            <p>Phone: (832) 366 1434</p>
+            <form method="post" action="/success" name="Contact" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="bot-field"/>
+              <p>
+                <label style={{display:'none'}}>Email</label>
+                <input className='inputEmail' type='email' name='email' placeholder='Email' required/>
+              </p>
+              <p>
+                <label style={{display:'none'}}>Message</label>
+                <textarea className='inputMessage' type='text' name='message' placeholder='Message' required/>
+              </p>
+              <p>
+                <input className='inputSubmit' type='submit' value='Submit'/>
+              </p>
+            </form>
+{/*            <p>Email: reegodev@gmail.com</p>
+            <p>Phone: (832) 366 1434</p>*/}
           </div>
         </div>
         <div className='footer'>
